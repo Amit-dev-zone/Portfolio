@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amit Shaw - Web Developer & Open Source Contributor</title>
+  <meta name="description" content="Portfolio of Amit Shaw, a B.Tech CS student at IIIT Kalyani passionate about web development and open-source contributions." />
+  <meta name="author" content="Amit Shaw" />
+  <link rel="canonical" href="/" />
+  <meta property="og:title" content="Amit Shaw - Web Developer & Open Source Contributor" />
+  <meta property="og:description" content="Portfolio of Amit Shaw, a B.Tech CS student passionate about web development and open-source contributions." />
+  <link rel="stylesheet" href="style.css" />
+  <style>/* minimal icon styles */ svg{width:20px;height:20px}</style>
+</head>
+<body>
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="Amit Shaw Home">AS</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-controls="mobileMenu" aria-expanded="false">
+        <!-- menu icon -->
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </button>
+    </div>
+    <div class="container mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero" style="background:url('./assets/hero-bg.jpg') center/cover no-repeat">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="grid grid-2 gap-4">
+          <div class="fade-in" style="align-self:center">
+            <span class="hero-badge">👋 Welcome to my portfolio</span>
+            <h1>Hi, I'm <span class="text-gradient">Amit Shaw</span></h1>
+            <p class="hero-sub">A passionate B.Tech CSE student at IIIT Kalyani, building the web one line at a time.</p>
+            <p class="hero-sub2">Open-source contributor | Web Developer | Tech Enthusiast</p>
+            <div class="hero-actions mt-6">
+              <a class="btn" href="#contact">Get In Touch
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left:6px"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+              </a>
+              <a class="btn btn-outline" href="#projects">View Projects</a>
+            </div>
+            <div class="hero-socials">
+              <a class="social" href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58l-.01-2.05c-3.34.73-4.04-1.61-4.04-1.61-.55-1.38-1.35-1.75-1.35-1.75-1.11-.76.08-.74.08-.74 1.23.09 1.88 1.26 1.88 1.26 1.09 1.86 2.86 1.33 3.56 1.02.11-.8.43-1.33.78-1.64-2.66-.3-5.47-1.33-5.47-5.91 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.59-2.81 5.6-5.49 5.9.44.38.83 1.12.83 2.26l-.01 3.35c0 .32.21.7.83.58A12 12 0 0 0 12 .5Z"/></svg>
+              </a>
+              <a class="social" href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 5 2.12 5 3.5zM.5 8.5h4V24h-4zM8.5 8.5h3.8v2.1h.1c.5-1 1.7-2.1 3.5-2.1 3.7 0 4.4 2.4 4.4 5.4V24h-4v-6.9c0-1.7 0-3.9-2.4-3.9s-2.8 1.8-2.8 3.8V24h-4V8.5z"/></svg>
+              </a>
+              <a class="social" href="mailto:your.email@example.com" aria-label="Email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"></path><path d="m22 6-10 7L2 6"></path></svg>
+              </a>
+            </div>
+          </div>
+          <div class="slide-in-right" style="display:flex;justify-content:center">
+            <div class="avatar-wrap">
+              <div class="avatar-glow"></div>
+              <img class="avatar" src="Amit.png" alt="Amit Shaw" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="bg-gradient-secondary">
+      <div class="container">
+        <h2 class="center mb-4" style="font-size:clamp(2rem,4vw,3rem);font-weight:800">About <span class="text-gradient">Me</span></h2>
+        <p class="center text-muted mb-8" style="font-size:1.125rem">Get to know me better</p>
+        <div class="grid gap-4">
+          <article class="card fade-in"><div class="card-body"><div class="flex gap-4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="heart" style="width:24px;height:24px;color:var(--primary)"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a6 6 0 0 1 12 0Z"></path></svg><div><h3 style="font-size:1.25rem;font-weight:700" class="mb-4">From Bhadohi, Uttar Pradesh</h3><p class="text-muted">Born and raised in Bhadohi, UP, I'm a passionate first-year B.Tech Computer Science student at IIIT Kalyani (2025–2029). My journey into tech began with curiosity and has evolved into a deep commitment to building innovative web solutions.</p></div></div></div></article>
+          <article class="card fade-in"><div class="card-body"><div class="flex gap-4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:24px;height:24px;color:var(--primary)"><path d="m22 10-6-6-3 3-7 7-4 1 1-4 7-7 3-3 6 6"></path><path d="M16 16h6v6h-6z"></path></svg><div><h3 style="font-size:1.25rem;font-weight:700" class="mb-4">Education</h3><div class="text-muted"><p class="mb-4"><strong>B.Tech in Computer Science</strong><br/><span style="font-size:.9rem;color:var(--muted-foreground)">IIIT Kalyani • 2025–2029</span></p><p><strong>Class 12 (CBSE Board)</strong><br/><span style="font-size:.9rem;color:var(--muted-foreground)">Satya Narayan Singh National School, Varanasi, UP</span></p></div></div></div></div></article>
+          <article class="card fade-in"><div class="card-body"><div class="flex gap-4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:24px;height:24px;color:var(--primary)"><path d="M20.8 14.6a8 8 0 1 1-11.4-11.2"></path><path d="m13 10-4 4"></path><path d="m5 13-1.4 1.4"></path><path d="M7 7h.01"></path></svg><div><h3 style="font-size:1.25rem;font-weight:700" class="mb-4">Interests & Passion</h3><p class="text-muted">Beyond coding, I'm an avid sports enthusiast who loves playing badminton and cricket. I'm actively learning JavaScript and Node.js, exploring backend development, and contributing to open-source projects. My Hacktoberfest contributions reflect my commitment to collaborative development and continuous learning.</p></div></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="center mb-4" style="font-size:clamp(2rem,4vw,3rem);font-weight:800">My <span class="text-gradient">Skills</span></h2>
+        <p class="center text-muted mb-8" style="font-size:1.125rem">Technologies and tools I work with</p>
+        <div class="grid grid-2">
+          <!-- Programming Languages -->
+          <article class="card fade-in"><div class="card-body">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="rounded" style="width:48px;height:48px;background:color-mix(in oklab,var(--primary) 10%, transparent);display:flex;align-items:center;justify-content:center">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--primary)"><path d="M10 9H5v6h5"></path><path d="M19 9h-5v6h5"></path></svg>
+              </div>
+              <h3 style="font-size:1.25rem;font-weight:700">Programming Languages</h3>
+            </div>
+            <div class="mb-4"><div class="flex items-center justify-between mb-2"><span>Python</span><span class="text-muted">75%</span></div><div class="progress"><span style="width:75%"></span></div></div>
+            <div class="mb-4"><div class="flex items-center justify-between mb-2"><span>C</span><span class="text-muted">70%</span></div><div class="progress"><span style="width:70%"></span></div></div>
+            <div><div class="flex items-center justify-between mb-2"><span>JavaScript <span class="badge">Learning</span></span><span class="text-muted">60%</span></div><div class="progress"><span style="width:60%"></span></div></div>
+          </div></article>
+          <!-- Web Technologies -->
+          <article class="card fade-in"><div class="card-body">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="rounded" style="width:48px;height:48px;background:color-mix(in oklab,var(--primary) 10%, transparent);display:flex;align-items:center;justify-content:center">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--primary)"><rect width="14" height="14" x="5" y="5" rx="2"/><path d="M8 8h8v8H8z"/></svg>
+              </div>
+              <h3 style="font-size:1.25rem;font-weight:700">Web Technologies</h3>
+            </div>
+            <div class="mb-4"><div class="flex items-center justify-between mb-2"><span>HTML</span><span class="text-muted">85%</span></div><div class="progress"><span style="width:85%"></span></div></div>
+            <div class="mb-4"><div class="flex items-center justify-between mb-2"><span>CSS</span><span class="text-muted">80%</span></div><div class="progress"><span style="width:80%"></span></div></div>
+            <div><div class="flex items-center justify-between mb-2"><span>Node.js <span class="badge">Learning</span></span><span class="text-muted">50%</span></div><div class="progress"><span style="width:50%"></span></div></div>
+          </div></article>
+          <!-- Tools & Platforms -->
+          <article class="card fade-in"><div class="card-body">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="rounded" style="width:48px;height:48px;background:color-mix(in oklab,var(--primary) 10%, transparent);display:flex;align-items:center;justify-content:center">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--primary)"><path d="M3 7h18"></path><path d="M6 3h12"></path><path d="M9 21h6"></path><path d="M12 7v14"></path></svg>
+              </div>
+              <h3 style="font-size:1.25rem;font-weight:700">Tools & Platforms</h3>
+            </div>
+            <div class="mb-4"><div class="flex items-center justify-between mb-2"><span>Git</span><span class="text-muted">75%</span></div><div class="progress"><span style="width:75%"></span></div></div>
+            <div class="mb-4"><div class="flex items-center justify-between mb-2"><span>GitHub</span><span class="text-muted">80%</span></div><div class="progress"><span style="width:80%"></span></div></div>
+            <div><div class="flex items-center justify-between mb-2"><span>VS Code</span><span class="text-muted">85%</span></div><div class="progress"><span style="width:85%"></span></div></div>
+          </div></article>
+          <!-- Other Skills -->
+          <article class="card fade-in"><div class="card-body">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="rounded" style="width:48px;height:48px;background:color-mix(in oklab,var(--primary) 10%, transparent);display:flex;align-items:center;justify-content:center">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--primary)"><path d="M12 2v20"></path><path d="M2 12h20"></path></svg>
+              </div>
+              <h3 style="font-size:1.25rem;font-weight:700">Other Skills</h3>
+            </div>
+            <div class="mb-4"><div class="flex items-center justify-between mb-2"><span>Problem Solving</span><span class="text-muted">80%</span></div><div class="progress"><span style="width:80%"></span></div></div>
+            <div class="mb-4"><div class="flex items-center justify-between mb-2"><span>Open Source</span><span class="text-muted">70%</span></div><div class="progress"><span style="width:70%"></span></div></div>
+            <div><div class="flex items-center justify-between mb-2"><span>Team Collaboration</span><span class="text-muted">75%</span></div><div class="progress"><span style="width:75%"></span></div></div>
+          </div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="bg-gradient-secondary">
+      <div class="container">
+        <h2 class="center mb-4" style="font-size:clamp(2rem,4vw,3rem);font-weight:800">My <span class="text-gradient">Projects</span></h2>
+        <p class="center text-muted mb-8" style="font-size:1.125rem">Showcasing my work and contributions</p>
+        <div class="grid grid-3">
+          <!-- Project Cards -->
+          <article class="card fade-in"><div class="card-header"><h3 style="display:flex;align-items:center;justify-content:space-between"><span>DevFest Portfolio</span><span class="flex gap-2"><a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58l-.01-2.05c-3.34.73-4.04-1.61-4.04-1.61-.55-1.38-1.35-1.75-1.35-1.75-1.11-.76.08-.74.08-.74 1.23.09 1.88 1.26 1.88 1.26 1.09 1.86 2.86 1.33 3.56 1.02.11-.8.43-1.33.78-1.64-2.66-.3-5.47-1.33-5.47-5.91 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.59-2.81 5.6-5.49 5.9.44.38.83 1.12.83 2.26l-.01 3.35c0 .32.21.7.83.58A12 12 0 0 0 12 .5Z"/></svg></a><a href="https://devfest-25.netlify.app/" target="_blank" aria-label="External"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></a></span></h3></div><div class="card-body"><p class="text-muted mb-4">A modern portfolio website built for GDG core team selection, showcasing web development skills and design aesthetics.</p><div class="flex gap-2"><span class="badge" style="background:color-mix(in oklab,var(--primary) 10%, transparent);color:var(--primary)">HTML</span><span class="badge" style="background:color-mix(in oklab,var(--primary) 10%, transparent);color:var(--primary)">CSS</span><span class="badge" style="background:color-mix(in oklab,var(--primary) 10%, transparent);color:var(--primary)">JavaScript</span></div></div></article>
+
+          <article class="card fade-in"><div class="card-header"><h3 style="display:flex;align-items:center;justify-content:space-between"><span>Open Source Contributions</span><span class="flex gap-2"><a href="https://github.com" target="_blank" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58l-.01-2.05c-3.34.73-4.04-1.61-4.04-1.61-.55-1.38-1.35-1.75-1.35-1.75-1.11-.76.08-.74.08-.74 1.23.09 1.88 1.26 1.88 1.26 1.09 1.86 2.86 1.33 3.56 1.02.11-.8.43-1.33.78-1.64-2.66-.3-5.47-1.33-5.47-5.91 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.59-2.81 5.6-5.49 5.9.44.38.83 1.12.83 2.26l-.01 3.35c0 .32.21.7.83.58A12 12 0 0 0 12 .5Z"/></svg></a><a href="https://github.com" target="_blank" aria-label="External"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></a></span></h3></div><div class="card-body"><p class="text-muted mb-4">Active contributor to various open-source projects during Hacktoberfest, focusing on web development and documentation improvements.</p><div class="flex gap-2"><span class="badge" style="background:color-mix(in oklab,var(--primary) 10%, transparent);color:var(--primary)">Git</span><span class="badge" style="background:color-mix(in oklab,var(--primary) 10%, transparent);color:var(--primary)">GitHub</span><span class="badge" style="background:color-mix(in oklab,var(--primary) 10%, transparent);color:var(--primary)">Markdown</span></div></div></article>
+
+          <article class="card fade-in"><div class="card-header"><h3 style="display:flex;align-items:center;justify-content:space-between"><span>Learning Projects</span><span class="flex gap-2"><a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58l-.01-2.05c-3.34.73-4.04-1.61-4.04-1.61-.55-1.38-1.35-1.75-1.35-1.75-1.11-.76.08-.74.08-.74 1.23.09 1.88 1.26 1.88 1.26 1.09 1.86 2.86 1.33 3.56 1.02.11-.8.43-1.33.78-1.64-2.66-.3-5.47-1.33-5.47-5.91 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.59-2.81 5.6-5.49 5.9.44.38.83 1.12.83 2.26l-.01 3.35c0 .32.21.7.83.58A12 12 0 0 0 12 .5Z"/></svg></a><a href="#" aria-label="External"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path></svg></a></span></h3></div><div class="card-body"><p class="text-muted mb-4">Collection of projects built while learning JavaScript and Node.js, including web applications and automation scripts.</p><div class="flex gap-2"><span class="badge" style="background:color-mix(in oklab,var(--primary) 10%, transparent);color:var(--primary)">JavaScript</span><span class="badge" style="background:color-mix(in oklab,var(--primary) 10%, transparent);color:var(--primary)">Node.js</span><span class="badge" style="background:color-mix(in oklab,var(--primary) 10%, transparent);color:var(--primary)">APIs</span></div></div></article>
+        </div>
+        <div class="center mt-8">
+          <a class="btn btn-outline" href="https://github.com" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58l-.01-2.05c-3.34.73-4.04-1.61-4.04-1.61-.55-1.38-1.35-1.75-1.35-1.75-1.11-.76.08-.74.08-.74 1.23.09 1.88 1.26 1.88 1.26 1.09 1.86 2.86 1.33 3.56 1.02.11-.8.43-1.33.78-1.64-2.66-.3-5.47-1.33-5.47-5.91 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.59-2.81 5.6-5.49 5.9.44.38.83 1.12.83 2.26l-.01 3.35c0 .32.21.7.83.58A12 12 0 0 0 12 .5Z"/></svg>
+            View All on GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+      <div class="container">
+        <h2 class="center mb-4" style="font-size:clamp(2rem,4vw,3rem);font-weight:800">What I <span class="text-gradient">Offer</span></h2>
+        <p class="center text-muted mb-8" style="font-size:1.125rem">Services and collaboration opportunities</p>
+        <div class="grid grid-2">
+          <article class="card fade-in"><div class="card-header"><div class="rounded" style="width:64px;height:64px;background:linear-gradient(135deg, var(--primary), var(--secondary));display:flex;align-items:center;justify-content:center;margin-bottom:1rem"><svg viewBox="0 0 24 24" fill="none" stroke="var(--primary-foreground)" stroke-width="2"><path d="M3 3h7v7H3z"></path><path d="M14 3h7v7h-7z"></path><path d="M14 14h7v7h-7z"></path><path d="M3 14h7v7H3z"></path></svg></div><h3 style="font-size:1.25rem">Frontend Development</h3></div><div class="card-body"><p class="text-muted">Building responsive and interactive web interfaces using modern HTML, CSS, and JavaScript frameworks.</p></div></article>
+          <article class="card fade-in"><div class="card-header"><div class="rounded" style="width:64px;height:64px;background:linear-gradient(135deg, var(--primary), var(--secondary));display:flex;align-items:center;justify-content:center;margin-bottom:1rem"><svg viewBox="0 0 24 24" fill="none" stroke="var(--primary-foreground)" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20"></path><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></div><h3 style="font-size:1.25rem">UI/UX Design</h3></div><div class="card-body"><p class="text-muted">Creating clean, user-friendly designs that provide excellent user experiences across all devices.</p></div></article>
+          <article class="card fade-in"><div class="card-header"><div class="rounded" style="width:64px;height:64px;background:linear-gradient(135deg, var(--primary), var(--secondary));display:flex;align-items:center;justify-content:center;margin-bottom:1rem"><svg viewBox="0 0 24 24" fill="none" stroke="var(--primary-foreground)" stroke-width="2"><path d="M6 3v12"></path><path d="M6 15a3 3 0 1 0 6 0V3"></path><path d="M18 3v7"></path><path d="M18 14a3 3 0 1 0-6 0"></path></svg></div><h3 style="font-size:1.25rem">Open Source Contribution</h3></div><div class="card-body"><p class="text-muted">Active participation in open-source projects, contributing code, documentation, and community support.</p></div></article>
+          <article class="card fade-in"><div class="card-header"><div class="rounded" style="width:64px;height:64px;background:linear-gradient(135deg, var(--primary), var(--secondary));display:flex;align-items:center;justify-content:center;margin-bottom:1rem"><svg viewBox="0 0 24 24" fill="none" stroke="var(--primary-foreground)" stroke-width="2"><path d="M9 18H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v4"></path><path d="M14 18h7"></path><path d="M17 21l3-3-3-3"></path></svg></div><h3 style="font-size:1.25rem">Tech Consulting</h3></div><div class="card-body"><p class="text-muted">Providing guidance on web development best practices, technology stack selection, and project planning.</p></div></article>
+        </div>
+        <div class="card mt-8"><div class="card-body"><h3 style="font-size:1.5rem;font-weight:800" class="mb-4 center">Open to Opportunities</h3><p class="text-muted center">I'm actively seeking frontend development opportunities, internships, and collaboration on exciting tech projects. Whether it's building new features, contributing to open-source, or creating innovative web solutions, I'm eager to learn and contribute.</p></div></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="bg-gradient-secondary">
+      <div class="container">
+        <h2 class="center mb-4" style="font-size:clamp(2rem,4vw,3rem);font-weight:800">Get In <span class="text-gradient">Touch</span></h2>
+        <p class="center text-muted mb-8" style="font-size:1.125rem">Let's connect and build something amazing together</p>
+        <div class="grid grid-2">
+          <div>
+            <h3 style="font-size:1.5rem;font-weight:800" class="mb-6">Contact Information</h3>
+            <p class="text-muted mb-6">Feel free to reach out through any of these channels. I'm always open to discussing new projects, opportunities, or just having a chat about tech!</p>
+            <div class="grid gap-4">
+              <div class="card"><div class="card-body flex items-center gap-4"><div class="rounded" style="width:48px;height:48px;background:color-mix(in oklab,var(--primary) 10%, transparent);display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--primary)"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m22 7-10 5L2 7"/></svg></div><div style="min-width:0;flex:1"><p class="text-muted" style="font-size:.9rem">Email</p><a href="mailto:amitshaw1507@gmail.com" class="hover" style="font-weight:600">amitshaw1507@gmail.com</a></div></div></div>
+              <div class="card"><div class="card-body flex items-center gap-4"><div class="rounded" style="width:48px;height:48px;background:color-mix(in oklab,var(--primary) 10%, transparent);display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--primary)"><path d="M22 16.92V19a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 3 5.18 2 2 0 0 1 5 3h2.09a2 2 0 0 1 2 1.72c.12.81.3 1.6.54 2.36a2 2 0 0 1-.45 2.11L8.09 10.91a16 16 0 0 0 5 5l1.72-1.09a2 2 0 0 1 2.11-.45c.76.24 1.55.42 2.36.54A2 2 0 0 1 22 16.92z"/></svg></div><div style="min-width:0;flex:1"><p class="text-muted" style="font-size:.9rem">Phone</p><a href="tel:+91XXXXXXXXXX" class="hover" style="font-weight:600">+91 XXXXX XXXXX</a></div></div></div>
+              <div class="card"><div class="card-body flex items-center gap-4"><div class="rounded" style="width:48px;height:48px;background:color-mix(in oklab,var(--primary) 10%, transparent);display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--primary)"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a6 6 0 0 1 12 0Z"/><circle cx="12" cy="10" r="3"/></svg></div><div style="min-width:0;flex:1"><p class="text-muted" style="font-size:.9rem">Location</p><a href="#" class="hover" style="font-weight:600">Bhadohi, UP / IIIT Kalyani</a></div></div></div>
+            </div>
+          </div>
+          <div>
+            <div class="card"><div class="card-body">
+              <form onsubmit="event.preventDefault(); alert('Message Sent! Thank you for reaching out.'); this.reset();" class="grid gap-4">
+                <div>
+                  <label for="name" style="display:block;font-size:.9rem;font-weight:600;margin-bottom:.5rem">Your Name</label>
+                  <input id="name" required placeholder="John Doe" style="width:100%;height:44px;border-radius:10px;border:1px solid var(--border);background:color-mix(in oklab,var(--background) 50%, transparent);color:var(--foreground);padding:0 .75rem" />
+                </div>
+                <div>
+                  <label for="email" style="display:block;font-size:.9rem;font-weight:600;margin-bottom:.5rem">Your Email</label>
+                  <input id="email" type="email" required placeholder="john@example.com" style="width:100%;height:44px;border-radius:10px;border:1px solid var(--border);background:color-mix(in oklab,var(--background) 50%, transparent);color:var(--foreground);padding:0 .75rem" />
+                </div>
+                <div>
+                  <label for="message" style="display:block;font-size:.9rem;font-weight:600;margin-bottom:.5rem">Your Message</label>
+                  <textarea id="message" required placeholder="Tell me about your project or just say hi..." style="width:100%;min-height:128px;border-radius:10px;border:1px solid var(--border);background:color-mix(in oklab,var(--background) 50%, transparent);color:var(--foreground);padding:.75rem"></textarea>
+                </div>
+                <button type="submit" class="btn" style="width:100%">
+                  Send Message
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left:6px"><path d="M22 2 11 13"></path><path d="M22 2 15 22 11 13 2 9 22 2"></path></svg>
+                </button>
+              </form>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-muted">© <span id="year"></span> Amit Shaw. Made with <svg class="heart" viewBox="0 0 24 24" fill="currentColor" style="width:16px;height:16px"><path d="M20.42 4.58a5.5 5.5 0 0 0-7.78 0L12 5.22l-.64-.64a5.5 5.5 0 0 0-7.78 7.78L12 21.78l8.42-8.42a5.5 5.5 0 0 0 0-7.78z"/></svg> and lots of code</div>
+        <div class="flex gap-4">
+          <a class="social" style="width:40px;height:40px" href="https://github.com" target="_blank" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.79 23.39c.6.11.82-.26.82-.58l-.01-2.05c-3.34.73-4.04-1.61-4.04-1.61-.55-1.38-1.35-1.75-1.35-1.75-1.11-.76.08-.74.08-.74 1.23.09 1.88 1.26 1.88 1.26 1.09 1.86 2.86 1.33 3.56 1.02.11-.8.43-1.33.78-1.64-2.66-.3-5.47-1.33-5.47-5.91 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.17 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.66 1.65.25 2.87.12 3.17.77.84 1.23 1.91 1.23 3.22 0 4.59-2.81 5.6-5.49 5.9.44.38.83 1.12.83 2.26l-.01 3.35c0 .32.21.7.83.58A12 12 0 0 0 12 .5Z"/></svg></a>
+          <a class="social" style="width:40px;height:40px" href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 5 2.12 5 3.5zM.5 8.5h4V24h-4zM8.5 8.5h3.8v2.1h.1c.5-1 1.7-2.1 3.5-2.1 3.7 0 4.4 2.4 4.4 5.4V24h-4v-6.9c0-1.7 0-3.9-2.4-3.9s-2.8 1.8-2.8 3.8V24h-4V8.5z"/></svg></a>
+          <a class="social" style="width:40px;height:40px" href="mailto:your.email@example.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m22 7-10 5L2 7"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const yearEl = document.getElementById('year'); if(yearEl){ yearEl.textContent = String(new Date().getFullYear()); }
+    const header = document.getElementById('header');
+    const onScroll = () => { if(window.scrollY > 50){ header.classList.add('scrolled'); } else { header.classList.remove('scrolled'); } };
+    window.addEventListener('scroll', onScroll); onScroll();
+    const btn = document.getElementById('menuBtn'); const menu = document.getElementById('mobileMenu');
+    btn && btn.addEventListener('click', () => { const open = menu.classList.toggle('open'); btn.setAttribute('aria-expanded', open ? 'true':'false'); });
+  </script>
+</body>
+</html>
