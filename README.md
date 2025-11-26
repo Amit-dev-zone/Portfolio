@@ -24,5 +24,6 @@ About Me
 I enjoy turning design ideas into accessible, performant web pages. I write semantic markup, craft responsive layouts with CSS, and use JavaScript to add meaningful interactivity.
 I contribute to open source when possible and follow collaborative Git workflows to keep code clean and reviewable.
 
-<img src="" alt="Hero screenshot" width="600">
+<img src="super.png" alt="Hero screenshot" width="600">
+<img src="contributor.png" alt="Hero screenshot" width="600">
 
